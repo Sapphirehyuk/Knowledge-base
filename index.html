@@ -36,7 +36,7 @@ body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var
 .kb-selector{padding:10px 14px;border-bottom:1px solid var(--border);flex-shrink:0}
 .kb-select{width:100%;padding:8px 12px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--bg-card);font-family:'Inter',sans-serif;font-size:13px;color:var(--text-primary);cursor:pointer;transition:all var(--transition);appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236b5e4a' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center;padding-right:32px}
 .kb-select:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-bg)}
-.tree-container{flex:1;overflow-y:auto;overflow-x:hidden;padding:8px 0;scroll-behavior:smooth}
+.tree-container{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;padding:8px 0;scroll-behavior:smooth}
 .tree-container::-webkit-scrollbar{width:4px}
 .tree-container::-webkit-scrollbar-track{background:transparent}
 .tree-container::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px}
