@@ -22,7 +22,7 @@
 }
 html,body{height:100%;overflow:hidden}
 body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var(--text-primary);display:flex;-webkit-font-smoothing:antialiased}
-.sidebar{width:var(--sidebar-width);min-width:var(--sidebar-width);height:100vh;background:var(--bg-sidebar);border-right:1px solid var(--border);display:flex;flex-direction:column;user-select:none;position:relative;z-index:10}
+.sidebar{width:var(--sidebar-width);min-width:var(--sidebar-width);height:100vh;max-height:100vh;overflow:hidden;background:var(--bg-sidebar);border-right:1px solid var(--border);display:flex;flex-direction:column;user-select:none;position:relative;z-index:10}
 .sidebar.collapsed{width:0;min-width:0;overflow:hidden;border-right:none}
 .sidebar-header{height:var(--header-height);padding:0 18px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);flex-shrink:0}
 .sidebar-header .logo{font-family:'Noto Serif SC',serif;font-size:17px;font-weight:700;color:var(--text-primary);letter-spacing:.02em}
